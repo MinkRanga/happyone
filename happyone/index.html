@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fbf5f2" />
+  <meta name="description" content="A little collection of our first year together." />
+  <title>happyone ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="music-pill">
+    <button id="musicToggle" class="music-button" aria-label="Play music">
+      <span class="music-icon">♫</span><span id="musicLabel">our song</span>
+    </button>
+    <audio id="backgroundMusic" src="assets/audio/our-song.mp3" loop></audio>
+  </div>
+
+  <header class="hero" id="top">
+    <div class="hero-glow"></div>
+    <p class="eyebrow">a little something for you</p>
+    <h1>happy<span>one</span><i>♡</i></h1>
+    <p class="hero-subtitle">365 days, a thousand little moments,<br>and my favourite person.</p>
+    <a class="primary-button" href="#our-story">come take a walk with me <span>↓</span></a>
+    <p class="hero-footnote">made with all my love</p>
+  </header>
+
+  <main>
+    <section class="intro section-wrap" id="our-story">
+      <p class="eyebrow">chapter one through twelve</p>
+      <h2>Our little story</h2>
+      <p class="section-copy">Twelve months of us. Here's a little walk through some moments I never want to forget.</p>
+      <div class="scroll-cue"><span></span> scroll slowly</div>
+    </section>
+
+    <section class="timeline section-wrap" id="memoryTimeline" aria-label="Our memories by month">
+      <!-- Month cards are created from the memories array in script.js -->
+    </section>
+
+    <section class="reasons section-wrap" id="reasons">
+      <p class="eyebrow">the little things</p>
+      <h2>Reasons I love you</h2>
+      <p class="section-copy">Some are big, most are tiny. All of them are you.</p>
+      <div class="reason-grid" id="reasonGrid"></div>
+      <p class="tiny-note">tap a note to open it ♡</p>
+    </section>
+
+    <section class="letter-section section-wrap" id="letter">
+      <div class="letter-card">
+        <div class="letter-flower">✿</div>
+        <p class="eyebrow">one last thing</p>
+        <h2>A letter for you</h2>
+        <p class="section-copy">There are some things I want you to know, today and always.</p>
+        <button class="primary-button" id="openLetter">open your letter <span>♡</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>one year down, forever to go <span>♡</span></p>
+    <a href="#top">back to the beginning ↑</a>
+  </footer>
+
+  <div class="letter-overlay" id="letterOverlay" aria-hidden="true">
+    <div class="letter-modal" role="dialog" aria-modal="true" aria-labelledby="letterTitle">
+      <button class="close-letter" id="closeLetter" aria-label="Close letter">×</button>
+      <p class="eyebrow">to my favourite person</p>
+      <h2 id="letterTitle">My love,</h2>
+      <div class="letter-body" id="letterBody">
+        <p>One whole year. I keep thinking about how many little moments have made up this year, and how lucky I am that I got to share them with you.</p>
+        <p>Thank you for the laughter, the comfort, the silly conversations, the memories, and for being my person. I hope you know how loved you are — not just today, but in all the ordinary days too.</p>
+        <p>Here's to everything we've been, everything we are, and all the little adventures still waiting for us.</p>
+        <p class="signoff">All my love, always. <span>♡</span></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
