@@ -11,7 +11,7 @@ const memories = [
   { month: "Month Nine", title: "Our own little world", caption: "A memory that belongs only to the two of you.", date: "Our little world", photo: "assets/photos/month-09.jpg" },
   { month: "Month Ten", title: "I would choose this again", caption: "Add a moment that reminds you why this is your favourite story.", date: "Always you", photo: "assets/photos/month-10.jpg" },
   { month: "Month Eleven", title: "Almost one whole year", caption: "The countdown to one year — and all the feelings that came with it.", date: "Almost there", photo: "assets/photos/month-11.jpg" },
-  { month: "Month Twelve", title: "One whole year of us", caption: "We made it to a year. Here's to every memory still waiting to happen.", date: "365 days ♡", photo: "assets/photos/month-12.jpg" }
+  { month: "Month Twelve", title: "One whole year of us", caption: "We made it to a year. Here's to every memory still waiting to happen.", date: "27 November 2026 ♡", photo: "assets/photos/month-12.jpg" }
 ];
 
 const reasons = [
