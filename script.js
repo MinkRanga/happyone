@@ -1,26 +1,26 @@
 // PERSONALISE THIS FILE: replace the sample captions, reasons and letter with your own memories.
 const memories = [
-  { month: "Month One", title: "Where it all began", caption: "Add a little note about your first month together — the moment you keep replaying.", date: "Our beginning", photo: "assets/photos/month-01.jpg" },
-  { month: "Month Two", title: "Getting closer", caption: "A tiny detail, a favourite date, or something that made you smile.", date: "A favourite memory", photo: "assets/photos/month-02.jpg" },
-  { month: "Month Three", title: "Little moments, big feelings", caption: "Write about a moment that felt very much like the two of you.", date: "A moment to keep", photo: "assets/photos/month-03.jpg" },
-  { month: "Month Four", title: "Our kind of happiness", caption: "Add the story behind this month's photo.", date: "One of our days", photo: "assets/photos/month-04.jpg" },
-  { month: "Month Five", title: "More memories with you", caption: "What did you do, where were you, and why does it matter to you?", date: "A day I love", photo: "assets/photos/month-05.jpg" },
-  { month: "Month Six", title: "Half a year of us", caption: "A little celebration of making it halfway around the sun together.", date: "Six months", photo: "assets/photos/month-06.jpg" },
-  { month: "Month Seven", title: "Still my favourite person", caption: "Add a funny, sweet, or completely ordinary memory.", date: "Just us", photo: "assets/photos/month-07.jpg" },
-  { month: "Month Eight", title: "The world feels softer", caption: "Write about a time you felt especially loved or understood.", date: "A little love note", photo: "assets/photos/month-08.jpg" },
-  { month: "Month Nine", title: "Our own little world", caption: "A memory that belongs only to the two of you.", date: "Our little world", photo: "assets/photos/month-09.jpg" },
-  { month: "Month Ten", title: "I would choose this again", caption: "Add a moment that reminds you why this is your favourite story.", date: "Always you", photo: "assets/photos/month-10.jpg" },
-  { month: "Month Eleven", title: "Almost one whole year", caption: "The countdown to one year — and all the feelings that came with it.", date: "Almost there", photo: "assets/photos/month-11.jpg" },
+  { month: "Month One", title: "Where we started", caption: "the consecutive date nights during MUN will always be special.", date: "november", photo: "assets/photos/month-01.jpg" },
+  { month: "Month Two", title: "Getting closer", caption: "thank you for picking every other pretty flower you saw on the street for me.", date: "cutest memory", photo: "assets/photos/month-02.jpg" },
+  { month: "Month Three", title: "Little moments, big feelings", caption: "all the campus walks after class", date: "<3", photo: "assets/photos/month-03.jpg" },
+  { month: "Month Four", title: "Our kind of happiness", caption: "i love all the food dates", date: "mwah", photo: "assets/photos/month-04.jpg" },
+  { month: "Month Five", title: "More memories with you", caption: "we should go on more movie dates", date: "so funnn", photo: "assets/photos/month-05.jpg" },
+  { month: "Month Six", title: "Half a year of us", caption: "first time at the beach with you", date: "valentines day", photo: "assets/photos/month-06.jpg" },
+  { month: "Month Seven", title: "Still my favourite person", caption: "two DSA convenors standing.", date: "cutest picture", photo: "assets/photos/month-07.jpg" },
+  { month: "Month Eight", title: "The world feels softer", caption: "goofy lil baby", date: "i love you", photo: "assets/photos/month-08.jpg" },
+  { month: "Month Nine", title: "Our own little world", caption: "always proud to watch you perform on stage.", date: "during milan", photo: "assets/photos/month-09.jpg" },
+  { month: "Month Ten", title: "I would choose this again", caption: "best birthday i've ever had, all thanks to you", date: "always you", photo: "assets/photos/month-10.jpg" },
+  { month: "Month Eleven", title: "Almost one whole year", caption: "cant wait for more days to come", date: "almost there", photo: "assets/photos/month-11.jpg" },
   { month: "Month Twelve", title: "One whole year of us", caption: "We made it to a year. Here's to every memory still waiting to happen.", date: "27 November 2026 ♡", photo: "assets/photos/month-12.jpg" }
 ];
 
 const reasons = [
-  "The way you make me laugh",
-  "How you listen to me",
-  "Your smile",
-  "The little things you remember",
-  "How safe I feel with you",
-  "Simply being you"
+  "your smile, right before you start laughing.",
+  "bringing me a chokichoki every other day.",
+  "for always remembering the little things.",
+  "how full of joy you are.",
+  "for making me feel so loved.",
+  "for simply being you."
 ];
 
 const timeline = document.getElementById("memoryTimeline");
